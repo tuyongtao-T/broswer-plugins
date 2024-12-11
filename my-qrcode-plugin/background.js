@@ -9,7 +9,7 @@ chrome.runtime.onInstalled.addListener(() => {
 chrome.contextMenus.onClicked.addListener((info, tab) => {
   if (info.menuItemId === "generateQRCode") {
     const url = tab.url;
-    const apiUrl = `https://api.cl2wm.cn/api/qrcode/code?text=${url}&mhid=sELPDFnok80gPHovKdI`;
+    const apiUrl = `https://api.cl2wm.cn/api/qrcode/code?text=${url}&mhid=4USWCQ/pmZ4hMHYpKtBSP6I`;
 
     chrome.scripting.executeScript({
       target: { tabId: tab.id },
