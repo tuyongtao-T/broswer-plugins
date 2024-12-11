@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       const url = tabs[0].url;
-      const apiUrl = `https://api.cl2wm.cn/api/qrcode/code?text=${url}&mhid=sELPDFnok80gPHovKdI`;
+      const apiUrl = `https://api.cl2wm.cn/api/qrcode/code?text=${url}&mhid=4USWCQ/pmZ4hMHYpKtBSP6I`;
 
       const iframe = document.getElementById('qrFrame');
       iframe.src = apiUrl;
